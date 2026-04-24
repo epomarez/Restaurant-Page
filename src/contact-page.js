@@ -1,5 +1,5 @@
 import './contentStyles.css';
-
+import './contact-pageStyles.css'
 export function loadContact() {
 
     const contactContainer = document.createElement('div');

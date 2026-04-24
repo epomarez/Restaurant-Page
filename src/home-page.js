@@ -1,7 +1,7 @@
 export function loadHome() {
     const container = document.createElement('div');
 
-    const h1Title = document.createElement('h1');
+    const h1Title = document.createElement('h2');
     h1Title.textContent = "Mi restaurante";
 
     const imgRandom = document.createElement('img');

@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+#content h2 {
+    margin-bottom: 20px;
+}
+
+
 #content img {
     width: 400px;
 }

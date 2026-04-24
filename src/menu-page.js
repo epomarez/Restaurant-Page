@@ -8,7 +8,7 @@ export function loadMenu() {
     menuContainer.id = "menuContainer";
 
 
-    const menuTitle = document.createElement('h1');
+    const menuTitle = document.createElement('h2');
     menuTitle.textContent = "This is our delicious Menu";
     menuContainer.appendChild(menuTitle);
 
