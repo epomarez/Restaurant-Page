@@ -1,6 +1,7 @@
 import './templateStyles.css'
 import { loadHome } from "./home-page.js";
 import { loadMenu } from "./menu-page.js";
+import { loadContact } from './contact-page.js';
 import backgroundImg from "./background.jpeg";
 
 // This object contains the different events a nav button can have according to their id. 
