@@ -1,0 +1,24 @@
+    #contactContainer article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 20px 0;
+        margin: 20px;
+        padding: 10px;
+        border: 5px dotted rgb(47, 122, 54);
+        background-color: rgb(72, 141, 79);
+        border-radius: 10px;
+    }
+
+    article>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        height: 70px;
+    }
+
+    article p,
+    article span {
+        color: rgb(192, 254, 222);
+    }
