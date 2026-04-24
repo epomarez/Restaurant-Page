@@ -3,6 +3,7 @@ import { loadHome } from "./home-page.js";
 import { loadMenu } from "./menu-page.js";
 import backgroundImg from "./background.jpeg";
 
+// This object contains the different events a nav button can have according to their id. 
 const NAV_ROUTES = {
     btnHome: () =>
         cleanAndAppend(contentContainer, loadHome()),
@@ -22,14 +23,16 @@ const contentContainer = document.getElementById('content');
 contentContainer.appendChild(loadHome());
 
 const btnsNav = document.querySelectorAll('.btnNav');
-console.log(btnsNav);
 
+
+// Adds an event to each nav button.
 btnsNav.forEach(btn => {
     btn.addEventListener('click', () => {
         NAV_ROUTES[btn.id]?.();
     })
 });
 
+// This adds or deletes certain html elements according to the selected button.
 function cleanAndAppend(container, content) {
     container.removeChild(container.lastChild);
     container.appendChild(content);

@@ -3,6 +3,10 @@ import dish2 from './dish2.jpg';
 import dish3 from './dish3.jpg';
 import dish4 from './dish4.jpg';
 import dish5 from './dish5.jpg';
+
+// This file generates an array with all the different dishes info, 
+// each dish is stored in an object
+
 export const DishesList = [{
     title: "Lorem, ipsum dolor.",
     imageSource: dish1,

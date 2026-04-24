@@ -18,7 +18,7 @@ export function loadHome() {
     return container;
 
 }
-
+// This was mean for reference only.
 // <h1>Mi Restuarante</h1>
 //        <img src="https://picsum.photos/600/400" alt="Restaurant">
 //        <p>El mejor restaurante de Liberia</p>

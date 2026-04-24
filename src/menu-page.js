@@ -11,6 +11,8 @@ export function loadMenu() {
     menuTitle.textContent = "This is our delicious Menu";
     menuContainer.appendChild(menuTitle);
 
+    // The code bellow adds different dishes according to a fixed structure.
+    // The content is imported and dishes will be added regardless of their quantity.
     DishesList.forEach((dish) => {
         const dishElement = document.createElement('article');
         dishElement.className = "dishContent";
