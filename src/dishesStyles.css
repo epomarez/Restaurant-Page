@@ -1,0 +1,14 @@
+.dishContent {
+    border-bottom: 5px dotted black;
+    margin: 15px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.dishContent h3 {
+    margin: 10px;
+}
+
+.dishContent p {
+    font-size: 20px;
+}

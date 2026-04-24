@@ -1,5 +1,6 @@
 import { DishesList } from './dishes.js';
 import './contentStyles.css';
+import './dishesStyles.css'
 
 export function loadMenu() {
 

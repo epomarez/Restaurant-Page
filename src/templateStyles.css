@@ -14,7 +14,7 @@ body {
 
     display: grid;
     grid-template-columns: 15% 1fr 15%;
-    grid-template-rows: 20% auto 15%;
+    grid-template-rows: 130px auto 15%;
 }
 
 /* HEADER */
@@ -31,7 +31,8 @@ body {
 #content {
     grid-column: 2;
     grid-row: 2;
-    background-color: #914c37;
+    background-color: #eed1c9;
+    padding: 5%;
 }
 
 /* NAV BUTTONS */
